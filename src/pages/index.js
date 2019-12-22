@@ -1,3 +1,13 @@
 import React from "react"
+import Menu from "../components/Menu"
 
-export default () => <div>Hello world!</div>
+import "rsuite/dist/styles/rsuite-default.css"
+// import "./index.module.less"
+
+const IndexPage = () => (
+  <div className="App">
+    <Menu />
+  </div>
+)
+
+export default IndexPage

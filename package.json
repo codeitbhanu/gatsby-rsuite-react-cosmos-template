@@ -11,15 +11,24 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "cosmos": "cosmos",
+    "cosmos:export": "cosmos-export"
   },
   "dependencies": {
     "gatsby": "^2.18.12",
+    "gatsby-plugin-less": "^3.0.17",
+    "gatsby-plugin-postcss": "^2.1.18",
+    "less": "^3.10.3",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
+    "rsuite": "^4.1.5"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "babel-preset-rsuite": "^4.0.0",
+    "prettier": "^1.19.1",
+    "react-cosmos": "^5.0.1"
   },
   "repository": {
     "type": "git",

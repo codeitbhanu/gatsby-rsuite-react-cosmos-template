@@ -1,0 +1,7 @@
+{
+  "globalImports": ["global.cosmos.js", "global.cosmos.less"],
+  "watchDirs": ["src"],
+  "webpack": {
+    "configPath": "react-scripts/config/webpack.config"
+  }
+}
