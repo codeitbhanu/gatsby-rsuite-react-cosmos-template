@@ -16,7 +16,7 @@
     "cosmos:export": "cosmos-export"
   },
   "dependencies": {
-    "gatsby": "^2.18.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-less": "^3.0.17",
     "gatsby-plugin-postcss": "^2.1.18",
     "less": "^3.10.3",
